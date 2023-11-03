@@ -44,3 +44,4 @@ hide_st_style="""
     .css-1pmktlq{visibility: visible;}
     </style>
     """
+st.markdown(hide_st_style, unsafe_allow_html=True)
