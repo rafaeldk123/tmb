@@ -34,3 +34,13 @@ with st.form("my_form"):
     if calcular:
         resultado=calculo(sexo,peso,altura,idade,ativ)
         st.write(f'O total de calorias gastas é: {resultado:.2f}')
+
+
+hide_st_style="""
+    <style>
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    header {visibility: hidden;}
+    .css-1pmktlq{visibility: visible;}
+    </style>
+    """
